@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Agile Lets: hold your room</title>
+<script>
+// The second form (Kevin, 25 Sep 2026): documents from a person securing a room. The chain's email
+// links here with ?id=<their Tenant Leads record id>, which the form stores (hidden) so the chain can
+// match the documents to the person. Anything that is not a record id is dropped, never passed on.
+(function () {
+  var FORM = "https://airtable.com/appnqjDpqDniH3IRl/shrNbmUzIT32hKHje";
+  var id = new URLSearchParams(location.search).get("id") || "";
+  var q = /^rec[A-Za-z0-9]{14}$/.test(id) ? "?prefill_Lead+ID=" + id + "&hide_Lead+ID=true" : "?hide_Lead+ID=true";
+  location.replace(FORM + q);
+})();
+</script>
+<style>body{font-family:system-ui,sans-serif;margin:3rem 1rem;text-align:center;color:#1c2422;background:#fbfbf9}a{color:#2c6e49}</style>
+</head><body><p>Opening the Agile Lets form&hellip;</p><p><a href="https://airtable.com/appnqjDpqDniH3IRl/shrNbmUzIT32hKHje">Open the form</a></p></body></html>

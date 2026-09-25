@@ -12,3 +12,4 @@ Short links to the Agile Lets room sign-up form, one per channel, so each sign-u
 | rooms.agilelets.co.uk/g | Gumtree |
 | rooms.agilelets.co.uk/f | Facebook |
 | rooms.agilelets.co.uk/p | Past applicant |
+| rooms.agilelets.co.uk/d?id=<record id> | The second form: documents from a person securing a room |
